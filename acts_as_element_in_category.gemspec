@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'acts-as-element-in-category/version'
+require 'acts_as_element_in_category/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'acts-as-element-in-category'
+  spec.name          = 'acts_as_element_in_category'
   spec.version       = ActsAsElementInCategory::VERSION
   spec.authors       = ['YuZakuro']
   spec.email         = ['zakuro@yuzakuro.me']

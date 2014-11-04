@@ -10,7 +10,7 @@ For instance, posts of a blog, pages of a wiki and more.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'acts-as-element-in-category'
+gem 'acts_as_element_in_category'
 ```
 
 And then execute:
@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install acts-as-element-in-category
+    $ gem install acts_as_element_in_category
 
 ## Usage
 
@@ -59,7 +59,7 @@ elements = Element.where(your conditions).in(category).order(:id)
 
 ## Contributing
 
-1. Fork it ( https://github.com/zakuro9715/acts-as-element-in-category/fork )
+1. Fork it ( https://github.com/zakuro9715/acts_as_element_in_category/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
