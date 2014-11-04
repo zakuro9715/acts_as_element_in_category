@@ -1,5 +1,5 @@
 require 'active_record'
-require 'acts-as-element-in-category'
+require 'acts_as_element_in_category'
 
 class Category < ActiveRecord::Base
 end

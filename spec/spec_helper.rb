@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'active_record'
-require 'acts-as-element-in-category'
+require 'acts_as_element_in_category'
 require 'models'
 require 'migrations'
 
