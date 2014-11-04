@@ -7,8 +7,13 @@ module ActsAsElementInCategory
     end
     
     module ClassMethods
-      def acts_as_element_in(category, options={})
-        belongs_to category, options
+      def acts_as_element_in(category_name, options={})
+        @category_column = category_name.to_s
+        belongs_to category_name, options
+      end
+
+      def in(category, *args)
+        where("#{@category_column}_id = ?", category.id)
       end
 
       def method_missing(method_name, *args)
