@@ -1,4 +1,4 @@
-require "acts-as-element-in-category/version"
+require 'acts-as-element-in-category/version'
+require 'acts-as-element-in-category/element'
 
-module ActsAsElementInCategory
-end
+ActiveRecord::Base.send :include, ActsAsElementInCategory::Element
