@@ -1,6 +1,4 @@
-# Acts::As::Element::In::Category
-
-TODO: Write a gem description
+# ActsAsElementInCategory
 
 ## Installation
 
@@ -20,7 +18,6 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
 
 ## Contributing
 
